@@ -1,0 +1,366 @@
+/* ***************************   html ScrollBar *************************** */
+html::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #e5ddd5;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgba(#aaaaaa, .1);
+}
+
+.right {
+    border-left: 1px solid #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.users {
+    overflow-y: scroll;
+    position: relative;
+    /* height: 100vh; */
+}
+
+.conAdd {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-color: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 440px;
+    cursor: pointer;
+    overflow-y: scroll;
+}
+
+.conAdd::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.conAdd::-webkit-scrollbar-thumb {
+    background-color: #f0eeec;
+}
+
+.conAdd::-webkit-scrollbar-track {
+    background: rgba(#aaaaaa, .1);
+}
+
+/* ************** */
+.users::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.users::-webkit-scrollbar-thumb {
+    background-color: #f0eeec;
+}
+
+.users::-webkit-scrollbar-track {
+    background: rgba(#aaaaaa, .1);
+}
+
+/* ***************************  Right -side ************************** */
+
+.main {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+/* *********************************    Chat users area  ****************************************** */
+.chat {
+    background-color: #e5ddd5;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1089577/background.png);
+    width: 100%;
+    padding: 0px 5%;
+    padding-top: 7px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.chat::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.chat::-webkit-scrollbar-thumb {
+    background-color: #f0eeec;
+}
+
+.chat::-webkit-scrollbar-track {
+    background: rgba(#aaaaaa, .1);
+}
+
+/* *********************************    Chat Box  ****************************************** */
+.chatbox {
+    width: 100%;
+    height: 60px;
+}
+
+.information {
+    width: 100%;
+    position: relative;
+    background: #f7f7f7;
+    display: none;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+/* *************************************  Message Area  ******************************** */
+.wrap-message {
+    width: 100%;
+    height: 60px;
+    background: #f1f1f1;
+    display: flex;
+}
+
+.input-message {
+    width: 100%;
+    margin: 0px 10px;
+    border: none;
+}
+
+.wrap-message i {
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.uk {
+    background-color: #fff;
+    flex: none;
+}
+
+.way.way1 {
+    padding-right: 0;
+    border-bottom: 1px solid rgb(220, 219, 219);
+}
+
+.way {
+    padding: 0 12px;
+    background-color: #fff;
+}
+
+.way1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: none;
+    align-items: center;
+    height: 49px;
+    transition: box-shadow .18s ease-out, background-color .25s ease-out;
+}
+
+.tk {
+    position: relative;
+    box-sizing: border-box;
+    flex: 1;
+    overflow: hidden;
+}
+
+.button {
+    position: relative;
+    box-sizing: border-box;
+    flex: 1;
+    overflow: hidden;
+}
+
+._1UWac._3hKpJ ._13NKt {
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+._1UWac ._13NKt {
+    position: relative;
+    width: 100%;
+    min-height: 20px;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--primary);
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+/* user */
+.vq6sj {
+    cursor: pointer;
+}
+
+._2nY6U {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    pointer-events: all;
+}
+
+.img-p {
+    padding: 0 15px 0 13px;
+    align-items: center;
+}
+
+.gl {
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.aa {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    min-width: 0;
+}
+
+.bb {
+    text-align: left;
+    align-items: center;
+    line-height: normal;
+}
+
+.bbb {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--primary-strong);
+    overflow-wrap: break-word;
+}
+
+.ccc {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 19px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.cc {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.dd {
+    flex-grow: 1;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ee {
+    flex: none;
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--chat-meta);
+}
+
+.time {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 19px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+/* ****************************  chatting information *******************************************/
+.message-in {
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.FMR {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    user-select: text;
+
+}
+
+msg-container {
+    position: relative;
+    flex: none;
+    font-size: 14.2px;
+    line-height: 19px;
+    color: #aaaaaa;
+    max-width: 85%;
+}
+
+.it {
+    background-color: #fff;
+    box-shadow: 0 1px 0.5px rgb(169, 170, 171);
+    border-radius: 7.5px;
+    position: relative;
+    z-index: 200;
+
+}
+
+.msg-text {
+    padding: 6px 7px 8px 9px;
+    box-sizing: border-box;
+}
+
+.msgTime {
+    float: right;
+    margin: -10px 0 -5px 4px;
+    position: relative;
+    z-index: 10;
+}
+
+.message-out {
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.its {
+    background-color: rgb(202, 220, 247);
+    box-shadow: 0 1px 0.5px rgb(169, 170, 171);
+    border-radius: 7.5px;
+    position: relative;
+    z-index: 200;
+}
+
+.addUser {
+    cursor: pointer;
+}
+
+.start-user {
+    color: rgb(74, 104, 224);
+    text-align: center;
+    margin-top: 200px;
+}
+.msg-text{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
